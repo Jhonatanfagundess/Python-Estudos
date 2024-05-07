@@ -9,7 +9,7 @@ os.system('shutdown /a')
 def turn_off_one_hour():
     os.system('shutdown /s /t 3600')
 
-def turn_off_half_an_hour():
+def turn_off_half_an_hour(): 
     os.system('shutdown /s /t 1800')
 
 def cancel_shutdown():
