@@ -12,7 +12,7 @@ print(f'Letras pequenas: {resultadop}\n Letras grandes: {resultadog}\n Números:
 
 
 def check_character(string):
-    rule = re.compile(r'[^a-zA-Z0-9]')
+    rule = re.compile(r'[^a-z-A-Z-0-9]')
     string = rule.search(string)
     return not bool(string)
 
