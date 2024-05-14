@@ -1,7 +1,7 @@
 import re
 
 
-text = 'Me chamo Jhonatan Fagundes e quero ser um programador! Minha base na escola foi pessíma e por conta disso estou correndo atrás de tudo que eu perdi! Começei a estudar em 2023 sendo mais exatamento no mês 12(dezembro) e estarei pronta para uma vada no fim de 2024!'
+text = 'Me chamo Jhonatan Fagundes e quero ser um programador! Minha base na escola foi pessíma e por conta disso estou correndo atrás de tudo que eu perdi! Começei a estudar em 2023 sendo mais exatamento no mês 12(dezembro) e estarei pronta para uma vaa no fim de 2024!'
 pq = '[a-z]'
 gg = '[A-Z]'
 number = '[0-9]'
