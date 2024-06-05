@@ -1,3 +1,4 @@
+
 class Movie:
     def __init__(self, name , yearLauch, plan , note, duraction ):
         self.name = name
