@@ -21,5 +21,8 @@ class Produto:
                 
         
 pc = Produto('PC Gamer' , 4000)
+cel = Produto('Iphone 15', 15000)
+print(cel)
+print(cel.des(20))
 print(pc)
 print(pc.des(20))
