@@ -30,12 +30,12 @@ class Movie:
         
         
 avengers = Movie('Vingadores' , 2012 , False , 120)     
-annabelle = Movie('Anabelle', 2015, True , 125)
 avengers.av(9.5)
 avengers.av(10.0)
 avengers.ficha_tecnica()
 avengers.average()
 #Modificando a plataforma
+annabelle = Movie('Anabelle', 2015, True , 125)
 Movie.platform = 'OnebitCodePRO'
 annabelle.av(9.5)
 annabelle.av(10.0)
