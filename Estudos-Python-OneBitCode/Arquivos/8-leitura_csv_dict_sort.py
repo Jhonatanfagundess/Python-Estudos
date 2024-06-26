@@ -1,12 +1,12 @@
 courses = []
-with open("languagens.csv", encoding="utf-8") as file:
+with open("cursos.csv", encoding="utf-8") as file:
     for line in file:
-        name, category = line.rstrip().split(",")
+        linguagens, categoria = line.rstrip().split(",")
         course = {}
-        course["name"] = name
-        course["category"] = category
+        course["linguagens"] = linguagens
+        course["categoria"] = categoria
         courses.append(course)
 print(courses)
 
-for course in sorted(courses, key=lambda course: course["name"], reverse=True):
-    print(f"{course['name']} -{course['category']}")
+for course in sorted(courses, key=lambda course: course["linguagens"], reverse=True):
+    print(f"{course['linguagens']} -{course['categoria']}")
