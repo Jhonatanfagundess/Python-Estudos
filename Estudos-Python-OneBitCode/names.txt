@@ -1,0 +1,1 @@
+& "C:/Users/Jhonatan Fagundes/AppData/Local/Programs/Python/Python311/python.exe" "c:/Users/Jhonatan Fagundes/Documents/Estudos/Python-Estudos/Estudos-Python-OneBitCode/Arquivos/6.leitura_csv_dict.py"
