@@ -7,4 +7,4 @@ with open('cursos.csv','r',encoding='utf-8')as f:
         cursos['linguagens'] = linguagens
         cursos['categoria'] = categorias
         cursos.append(cursos)
-print(cursos)
+print(cursos) 
