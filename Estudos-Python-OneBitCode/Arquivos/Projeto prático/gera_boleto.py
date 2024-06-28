@@ -1,5 +1,3 @@
-# pip install fpdf
-# pip install num2words y
 from fpdf import FPDF
 from num2words import num2words
 from datetime import date
