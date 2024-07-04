@@ -26,5 +26,5 @@ cursor.execute("""
 connection.commit()
 print('Dados inseridos')
 
-#5 Fechando conexão
+#5 Fechando conex
 connection.close()
