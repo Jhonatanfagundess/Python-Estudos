@@ -1,6 +1,6 @@
-from conexao_sqlalchemy import Base, engine, session
-from User import User
-from Post import Post
+from conexao_orm import Base, engine, session
+from user import User
+from post import Post
 
 # Cria as tabelas
 Base.metadata.create_all(engine)

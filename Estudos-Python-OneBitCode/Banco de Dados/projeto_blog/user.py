@@ -1,4 +1,4 @@
-from conexao_sqlalchemy import Base
+from conexao_orm import Base
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
 
