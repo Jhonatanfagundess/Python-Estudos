@@ -1,6 +1,6 @@
 from pathlib import Path
 
-p1 = Path('Automação de Tarefas/dados','teste.txt')
+p1 = Path('dados','teste.txt')
 print(p1)
 print(type(p1))
 print(p1.name)
