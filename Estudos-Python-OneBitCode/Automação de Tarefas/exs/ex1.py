@@ -7,7 +7,7 @@ def organize_files():
     base_path = os.path.expanduser('~')
 
     # 2 - Navega no diretório Downloads
-    path = os.path.join(base_path, 'Downloads')
+    path = os.path.join(base_path, 'Downloads')b  
 
     cwd = os.chdir(path)
 
